@@ -1,0 +1,11 @@
+jupyterlab==4.2.4
+polars==1.6.0
+transformers==4.40.2
+torch==2.3.1+cu121
+lightgbm==4.5.0
+numpy==1.26.4
+scipy==1.13.0
+scikit-learn==1.4.2
+matplotlib==3.8.4
+seaborn==0.13.2
+joblib==1.4.2

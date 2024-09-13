@@ -1,0 +1,57 @@
+2024-09-01 20:17:58,637 [INFO] (3649713037.py | <module> | 7) train gt distribution: 'gt' = 1: 1628989, 'gt' = 0: 32579780
+2024-09-01 20:20:53,435 [INFO] (basic.py | _log_native | 254) [LightGBM] [Info] Number of positive: 1628989, number of negative: 32579780
+2024-09-01 20:20:59,278 [INFO] (basic.py | _log_native | 254) [LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 5.278239 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+2024-09-01 20:20:59,626 [INFO] (basic.py | _log_native | 254) [LightGBM] [Info] Total Bins 53318
+2024-09-01 20:20:59,634 [INFO] (basic.py | _log_native | 254) [LightGBM] [Info] Number of data points in the train set: 34208769, number of used features: 221
+2024-09-01 20:21:56,915 [INFO] (basic.py | _log_native | 254) [LightGBM] [Info] [binary:BoostFromScore]: pavg=0.047619 -> initscore=-2.995732
+2024-09-01 20:21:56,946 [INFO] (basic.py | _log_native | 254) [LightGBM] [Info] Start training from score -2.995732
+2024-09-01 20:22:04,956 [INFO] (basic.py | _log_info | 245) Training until validation scores don't improve for 100 rounds
+2024-09-01 20:30:41,146 [INFO] (basic.py | _log_info | 245) [100]	train's auc: 0.796669	valid's auc: 0.815797
+2024-09-01 20:39:22,746 [INFO] (basic.py | _log_info | 245) [200]	train's auc: 0.810246	valid's auc: 0.828105
+2024-09-01 20:48:24,527 [INFO] (basic.py | _log_info | 245) [300]	train's auc: 0.817908	valid's auc: 0.834658
+2024-09-01 20:56:57,702 [INFO] (basic.py | _log_info | 245) [400]	train's auc: 0.820682	valid's auc: 0.836834
+2024-09-01 21:05:52,366 [INFO] (basic.py | _log_info | 245) [500]	train's auc: 0.823418	valid's auc: 0.83901
+2024-09-01 21:14:33,956 [INFO] (basic.py | _log_info | 245) [600]	train's auc: 0.825293	valid's auc: 0.840287
+2024-09-01 21:23:08,939 [INFO] (basic.py | _log_info | 245) [700]	train's auc: 0.826912	valid's auc: 0.841334
+2024-09-01 21:31:29,054 [INFO] (basic.py | _log_info | 245) [800]	train's auc: 0.828292	valid's auc: 0.842114
+2024-09-01 21:40:02,536 [INFO] (basic.py | _log_info | 245) [900]	train's auc: 0.829607	valid's auc: 0.842535
+2024-09-01 21:48:36,090 [INFO] (basic.py | _log_info | 245) [1000]	train's auc: 0.830743	valid's auc: 0.843167
+2024-09-01 21:56:55,436 [INFO] (basic.py | _log_info | 245) [1100]	train's auc: 0.831827	valid's auc: 0.843759
+2024-09-01 22:05:15,952 [INFO] (basic.py | _log_info | 245) [1200]	train's auc: 0.832884	valid's auc: 0.84425
+2024-09-01 22:13:40,352 [INFO] (basic.py | _log_info | 245) [1300]	train's auc: 0.833898	valid's auc: 0.844731
+2024-09-01 22:22:13,970 [INFO] (basic.py | _log_info | 245) [1400]	train's auc: 0.83479	valid's auc: 0.845094
+2024-09-01 22:30:30,818 [INFO] (basic.py | _log_info | 245) [1500]	train's auc: 0.83566	valid's auc: 0.845489
+2024-09-01 22:38:45,481 [INFO] (basic.py | _log_info | 245) [1600]	train's auc: 0.836544	valid's auc: 0.845904
+2024-09-01 22:46:56,045 [INFO] (basic.py | _log_info | 245) [1700]	train's auc: 0.837302	valid's auc: 0.846217
+2024-09-01 22:55:05,235 [INFO] (basic.py | _log_info | 245) [1800]	train's auc: 0.838021	valid's auc: 0.846478
+2024-09-01 23:03:27,291 [INFO] (basic.py | _log_info | 245) [1900]	train's auc: 0.838774	valid's auc: 0.84675
+2024-09-01 23:11:45,523 [INFO] (basic.py | _log_info | 245) [2000]	train's auc: 0.839454	valid's auc: 0.846953
+2024-09-01 23:19:37,402 [INFO] (basic.py | _log_info | 245) [2100]	train's auc: 0.84014	valid's auc: 0.847174
+2024-09-01 23:27:59,729 [INFO] (basic.py | _log_info | 245) [2200]	train's auc: 0.840833	valid's auc: 0.847386
+2024-09-01 23:36:15,670 [INFO] (basic.py | _log_info | 245) [2300]	train's auc: 0.841517	valid's auc: 0.847593
+2024-09-01 23:44:36,674 [INFO] (basic.py | _log_info | 245) [2400]	train's auc: 0.842125	valid's auc: 0.847761
+2024-09-01 23:52:45,774 [INFO] (basic.py | _log_info | 245) [2500]	train's auc: 0.84271	valid's auc: 0.847918
+2024-09-02 00:00:49,833 [INFO] (basic.py | _log_info | 245) [2600]	train's auc: 0.84326	valid's auc: 0.84806
+2024-09-02 00:08:55,706 [INFO] (basic.py | _log_info | 245) [2700]	train's auc: 0.843803	valid's auc: 0.848179
+2024-09-02 00:17:07,315 [INFO] (basic.py | _log_info | 245) [2800]	train's auc: 0.844357	valid's auc: 0.848299
+2024-09-02 00:25:06,306 [INFO] (basic.py | _log_info | 245) [2900]	train's auc: 0.844871	valid's auc: 0.848389
+2024-09-02 00:32:53,358 [INFO] (basic.py | _log_info | 245) [3000]	train's auc: 0.845388	valid's auc: 0.848493
+2024-09-02 00:40:58,725 [INFO] (basic.py | _log_info | 245) [3100]	train's auc: 0.845913	valid's auc: 0.848589
+2024-09-02 00:49:03,308 [INFO] (basic.py | _log_info | 245) [3200]	train's auc: 0.84644	valid's auc: 0.848703
+2024-09-02 00:56:56,981 [INFO] (basic.py | _log_info | 245) [3300]	train's auc: 0.846919	valid's auc: 0.848789
+2024-09-02 01:04:59,853 [INFO] (basic.py | _log_info | 245) [3400]	train's auc: 0.847405	valid's auc: 0.84886
+2024-09-02 01:13:03,727 [INFO] (basic.py | _log_info | 245) [3500]	train's auc: 0.847892	valid's auc: 0.848967
+2024-09-02 01:21:31,078 [INFO] (basic.py | _log_info | 245) [3600]	train's auc: 0.848414	valid's auc: 0.849096
+2024-09-02 01:29:30,875 [INFO] (basic.py | _log_info | 245) [3700]	train's auc: 0.848856	valid's auc: 0.849151
+2024-09-02 01:37:30,696 [INFO] (basic.py | _log_info | 245) [3800]	train's auc: 0.849331	valid's auc: 0.849225
+2024-09-02 01:45:34,465 [INFO] (basic.py | _log_info | 245) [3900]	train's auc: 0.849782	valid's auc: 0.849279
+2024-09-02 01:53:44,027 [INFO] (basic.py | _log_info | 245) [4000]	train's auc: 0.850256	valid's auc: 0.849347
+2024-09-02 02:01:57,823 [INFO] (basic.py | _log_info | 245) [4100]	train's auc: 0.850686	valid's auc: 0.849366
+2024-09-02 02:09:49,493 [INFO] (basic.py | _log_info | 245) [4200]	train's auc: 0.851087	valid's auc: 0.849392
+2024-09-02 02:17:58,961 [INFO] (basic.py | _log_info | 245) [4300]	train's auc: 0.851541	valid's auc: 0.849475
+2024-09-02 02:26:11,225 [INFO] (basic.py | _log_info | 245) [4400]	train's auc: 0.851968	valid's auc: 0.849534
+2024-09-02 02:33:57,893 [INFO] (basic.py | _log_info | 245) [4500]	train's auc: 0.852363	valid's auc: 0.849438
+2024-09-02 02:39:04,392 [INFO] (basic.py | _log_info | 245) Early stopping, best iteration is:
+[4465]	train's auc: 0.852232	valid's auc: 0.849553
+2024-09-02 02:45:50,422 [INFO] (1556542.py | <module> | 3) MRR: 0.01111111111111111
